@@ -1,6 +1,6 @@
 {
   "name": "@cycle/react-native",
-  "version": "1.0.0-experimental",
+  "version": "1.0.1-experimental",
   "description": "A Cycle.js Driver for interacting with React Native",
   "main": "lib/index.js",
   "author": "Andre Staltz",
@@ -13,16 +13,18 @@
     "react-native": "0.11.0"
   },
   "peerDependencies": {
-    "@cycle/core": "3.x.x"
+    "@cycle/core": "5.x.x",
+    "rx": "*"
   },
   "devDependencies": {
-    "@cycle/core": "3.x.x",
+    "@cycle/core": "5.x.x",
     "babel": "5.8.x",
     "eslint": "1.0.x",
     "eslint-config-cycle": "3.0.x",
     "eslint-plugin-cycle": "1.0.x",
     "eslint-plugin-no-class": "0.1.x",
-    "markdox": "0.1.9"
+    "markdox": "0.1.9",
+    "rx": "4.0.6"
   },
   "scripts": {
     "eslint": "eslint src/",
